@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Specials</title>
+<meta charset="utf-8">
+<meta names="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+*{
+ box-sizing:border-box;
+}
+
+
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffbf00;
+ } 
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #400040;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #ff80c0;
+  color: pink;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: purple;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffbf00;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: dark purple;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #800080;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding:15px;
+}
+
+
+.row::after {
+ content:"";
+ display:table;
+ clear: both;
+}
+
+
+@media screen and (max-width:600px) {
+ .c0lumn {
+  width: 100%;
+}
+ }
+ 
+ body {background: #ffff80}
+    a:link {color: #400040}
+    a:visited {color: #400040}
+    h1 {font-size: 24pt; font-family: arial;}
+    h2 {font-size: 18pt; font-family: arial;}
+    h3 {font-size: 14pt; font-family: arial;}
+    
+   h1 {
+     color:#400040;
+     }
+   p {
+    color: #400040;
+     }
+
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="Tri-lights.htm" class="active">Home</a>
+  <a href="about us.html">About Us</a>
+  <a href="specials.html">Specials</a>
+  <div class="dropdown">
+    <button class="dropbtn">Contact Us
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="client info.html">Client Info</a>
+      <a href="https://wa.me/18683676120">Whatsapp</a>
+    </div>
+  </div>
+<div>
+<div class="dropdown"> 
+  <button class="dropbtn">Menu
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content">
+      <a href="menu.html">Munchies</a>
+      <a href="menu.html">Lunches</a>
+      <a href="menu.html">Desserts/Drinks</a>
+   </div>
+</div>
+</div>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  <img src="website images/logobanner.jpg" alt="banner" style="width:1050px;height:300px;margin-right:15px;">
+</div>
+
+
+<div class="header">
+<h1>Food Nation</h1>
+ <p>We will touch your soul an lift your spirit to Euphoria.</p>
+ <a href="client info.html">
+ <img src="website images/mothersday.jpg" alt="banner" style="width:100%;height:100%;margin-right:15px;">
+</div>
+
+
+
+<div class="row">
+ <div class="column">
+  <h2>Cinnamon Rolls</h2>
+     <a href="client info.html"> 
+  <p><img src="website images/cinnamon rolls.jpg" alt="dessert" style="width:300px;height:300px;margin-right:15px;"><p/>
+ </div>
+
+
+ <div class="column">
+  <h2>Snack Box</h2>
+  <a href="client info.html">
+  <p><img src="website images/snackbox1.jpg" alt="fruits" style="width:300px;height:300px;margin-right:15px;"></p>
+ </div>
+
+
+ <div class="column">
+  <h2>Beef buscuit</h2>
+  <a href="client info.html">
+  <p><img src="website images/beef buscuit.jpg" alt="biscuit" style="width:300px;height:300px;margin-right:15px;"></p>
+ </div>
+</div>
+
+
+<br>
+<div class="footer">
+ <a href="https://www.facebook.com" class="fa fa-facebook"</a>
+  <h2><b>follow us</b></h2>
+  <p>Facebook</p>
+</br.
+
+</body>
+</html>
+

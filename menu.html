@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Menu</title>
+<meta charset="utf-8">
+<meta names="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {margin:0;font-family:Arial}
+body {background: #ffcaff}
+    a:link {color: #400040}
+    a:visited {color: #400040}
+    h1 {font-size: 24pt; font-family: arial;}
+    h2 {font-size: 18pt; font-family: arial;}
+    h3 {font-size: 14pt; font-family: arial;}
+    
+   h2 {
+     color:#350035;
+    }
+    p {
+      color:#2b002b
+     }
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffbf00;
+ } 
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #400040;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #ff80c0;
+  color: pink;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: purple;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffbf00;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: dark purple;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #800080;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+} 
+
+.row::after {
+ content:"";
+ display:table;
+ clear: both;
+}
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+} 
+
+</style>
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="Tri-lights.htm" class="active">Home</a>
+  <a href="about us.html">About Us</a>
+  <a href="specials.html">Specials</a>
+  <div class="dropdown">
+    <button class="dropbtn">Contact Us 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="client info.html">Client Info</a>
+      <a href="https://wa.me/18683676120">Whatsapp</a>
+    </div>
+  </div>
+<div>
+<div class="dropdown"> 
+  <button class="dropbtn">Menu
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content">
+      <a href="menu.html">Munchies</a>
+      <a href="menu.html">Lunches</a>
+      <a href="menu.html">Desserts/Drinks</a>
+   </div>
+</div>
+</div>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  <img src="website images/logobanner.jpg" alt="banner" style="width:1050px;height:300px;margin-right:15px;">
+</div>
+
+<br>
+<br>
+<br>
+<div class="row">
+<h1>MUNCHIES</h2>
+<div class="gallery">
+   <a target="_blank" href="website images/stickyhonbbq wings.jpg">
+    <a href="menu.html">
+    <img src="website images/stickyhonbbq wings.jpg" alt="beefsliders" width="600" height="400">
+  </a>
+  <div class="desc">honey bbq wings serves 2-3 persons $70.00 </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/seasoned fries.jpg">
+    <img src="website images/seasoned fries.jpg" alt="buscuit" width="600" height="400">
+  </a>
+  <div class="desc">seasoned fries $15.00 per portion</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/buffalo wings.jpg">
+    <img src="website images/buffalo wings.jpg" alt="wings" width="600" height="400">
+  </a>
+  </a>
+  <div class="desc">buffalo wings serves 2-3 persons $60.00</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/bbq2.jpg">
+    <img src="website images/bbq2.jpg" alt="wings" width="600" height="400">
+  </a>
+  </a>
+  <div class="desc">wings and fries $35.00</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/hotbog.jpg"> 
+    <img src="website images/hotbog.jpg" alt="hotdog" width="600" height="400">
+  </a>
+  </a>
+  <div class="desc">hotdogs combo $30.00 an  up</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/geera neck.jpg">
+    <img src="website images/geera neck.jpg" alt="geera" width="600" height="400">
+  </a>
+  <div class="desc">geera chicken $25.00</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/beef buscuit.jpg">
+    <img src="website images/beef buscuit.jpg" alt="biscuits" width="600" height="400">
+  </a>
+  <div class="desc">cheesey meat busicuit $30.00</div>
+</div>
+
+
+<div class="gallery">
+  <a target="_blank" href="website images/bbq.jpg">
+    <img src="website images/bbq.jpg" alt="bbq" width="600" height="400">
+  </a>
+  <div class="desc"> Wings $40.00 per portion serves 2-3 persons</div>
+</div>
+</div>
+</br>
+</br>
+</br>
+
+
+<br>
+<br>
+<br>
+<div class="row">
+<h2>LUNCHES</h2>
+<div class="gallery">
+  <a target="_blank" href="website images/grilled meal.jpg">
+    <img src="website images/grilled meal.jpg" alt="food" width="600" height="400">
+  </a>
+  </a>
+  <div class="desc">Oven grilled $50.00</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/pasta an veg.jpg">
+    <img src="website images/pasta an veg.jpg" alt="pasta" width="600" height="400">
+  </a>
+  <div class="desc">Pasta Mincedmeat an Veg $40.00</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website mages/noodlesnbbq.jpg">
+    <img src="website images/noodlesnbbq.jpg" alt="bbq" width="600" height="400">
+  </a>
+  <div class="desc">Bbq Chicken Noodles an Veg $40.00</div>
+</div>
+
+
+<div class="gallery">
+  <a target="_blank" href="website images/bbqbox2.jpg">
+    <img src="website images/bbqbox2.jpg" alt="bbq" width="600" height="400">
+  </a>
+  <div class="desc">BBQ  Fish with a Twist $45.00</div>
+</div>
+
+
+<div class="gallery">
+  <a target="_blank" href="website images/bbqbox.jpg">
+    <img src="website images/bbqbox.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">BBQ Chicken $40.00</div>
+</div>
+
+
+<div class="gallery">
+  <a target="_blank" href="website images/bbq4.jpg">
+    <img src="website images/bbq4.jpg" alt="bbq" width="600" height="400">
+  </a>
+  <div class="desc">BBQ with a Twist</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/bbq1.jpg">
+    <img src="website images/bbq1.jpg" alt="bbq" width="600" height="400">
+  </a>
+  <div class="desc">BBQ Chicken Sauted Potatoes Veg serves 50 persons $300.00</div>
+</div>
+</div>
+</br>
+</br>
+</br>
+
+
+
+<br>
+<br>
+<br>
+<div class="row">
+<h3>DESSERTS/DRINKS</h3>
+<div class="gallery">
+  <a target="_blank" href="website images/snackbox2.jpg">
+    <img src="website images/snackbox2.jpg" alt="snackbox" width="600" height="400">
+  </a>
+  <div class="desc">small snack box $50</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/cupcakes.jpg">
+    <img src="website images/cupcakes.jpg" alt="cupcakes" width="600" height="400">
+  </a>
+  <div class="desc">red velvet cupcakes 1/2 dozen $40.00</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/cinnamon rolls.jpg">
+    <img src="website images/cinnamon rolls.jpg" alt="pastry" width="600" height="400">
+  </a>
+  <div class="desc">Cinnamon Rolls 1 dozen $60.00</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/goodies.jpg">
+    <img src="website images/goodies.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/kurma.jpg">
+    <img src="website images/kurma.jpg" alt="kurma" width="600" height="400">
+  </a>
+  <div class="desc">Kurma </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/fruitcake.jpg">
+    <img src="website images/fruitcake.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Fruit Cake</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/sugar cake.jpg">
+    <img src="website images/sugar cake.jpg" alt="desserts" width="600" height="400">
+  </a>
+  <div class="desc">Sugar Cake</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/Sweet-Bread-.jpg">
+    <img src="website images/Sweet-Bread-.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Sweet Bread</div>
+</div>
+</div>
+</br>
+</br>
+</br>
+
+
+<br>
+<br>
+<br>
+<div class="row">
+<h3>DRINKS</h3>
+<div class="gallery">
+  <a target="_blank" href="website images/juice ad 1.jpg">
+    <img src="website images/juice ad 1.jpg" alt="snackbox" width="600" height="400">
+  </a>
+  <div class="desc">Juice Ad</div>
+</div>
+
+
+<div class="gallery">
+  <a target="_blank" href="website images/Sorrel.jpg">
+    <img src="website images/Sorrel.jpg" alt="juice" width="600" height="400">
+  </a>
+  <div class="desc">Sorrel</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/juices 4.jpg">
+    <img src="website images/juices 4.jpg" alt="juice" width="600" height="400">
+  </a>
+  <div class="desc">Mixed Case</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/juices3.jpg">
+    <img src="website images/juices3.jpg" alt="juices" width="600" height="400">
+  </a>
+  <div class="desc">Juices</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/juices1.jpg">
+    <img src="website images/juices1.jpg" alt="snackbox" width="600" height="400">
+  </a>
+  <div class="desc">Mixed Cases</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/orange-pine.jpg">
+    <img src="website images/orange-pine.jpg" alt="snackbox" width="600" height="400">
+  </a>
+  <div class="desc">Pineapple</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/pineapple.jpg">
+    <img src="website images/pineapple.jpg" alt="snackbox" width="600" height="400">
+  </a>
+  <div class="desc">Orange Pine</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="website images/punch1.jpg">
+    <img src="website images/punch1.jpg" alt="snackbox" width="600" height="400">
+  </a>
+  <div class="desc">Peanut Punch</div>
+</div>
+</div>
+</div>
+</br>
+</br>
+</br>
+
+
+
+
+<br>
+<br>
+<br>
+<div class="footer">
+  <a href="https://www.facebook.com" class="fa fa-facebook"</a>
+  <h2><b>follow us</b></h2>
+  <p>Facebook</p>
+</br>
+</br>
+</br>
+
+
+
+</body>
+</html>
+
